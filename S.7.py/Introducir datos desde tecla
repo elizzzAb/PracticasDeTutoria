@@ -1,0 +1,21 @@
+#INTRODUCIR DATOS DESDE EL TECLADO
+#Input()
+#Cadena o string ->(str)<-
+palabras = input("Introduce una palabra: ")
+otraVariable = "Alumnos de Fundamentos de Programacion"
+print("Esto es el string que hemos solicitado al usuario: ", palabras)
+print("Esto es el string: "+ palabras + "Aqui usted puede agregar mas mensajes"+ otraVariable + "mas texto")
+
+#ENTEROS (int)
+numInt = int(input("Introduce un numero entero: "))
+print("Esto es el numero dado por el usuario", numInt)
+
+#FLOTANTES (float)
+numFloat = float(input("Introduce un numero decimal: "))
+print("Esto es un numero decimal dado por el usuario", numFloat)
+
+
+#COMPLEJOS (complex)
+numComp = complex(input("Introducir un numero complejo: "))
+print("Esto es un numero complejo: ", numComp)
+
